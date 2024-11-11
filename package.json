@@ -1,10 +1,11 @@
 {
   "name": "@probablydanny/little-ioc",
   "description": "A small inversion-of-control library",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsup src/index.ts"
+    "build": "tsup src/index.ts",
+    "prepublishOnly": "$npm_execpath run build"
   },
   "keywords": [
     "ioc",
