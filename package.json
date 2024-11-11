@@ -1,7 +1,11 @@
 {
   "name": "@probablydanny/little-ioc",
   "description": "A small inversion-of-control library",
-  "version": "1.0.5",
+  "version": "1.0.6",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0916dhkim/little-ioc"
+  },
   "main": "dist/index.js",
   "scripts": {
     "build": "tsup src/index.ts --dts",
