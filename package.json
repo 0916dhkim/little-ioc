@@ -2,6 +2,7 @@
   "name": "@probablydanny/little-ioc",
   "description": "A small inversion-of-control library",
   "version": "1.0.0",
+  "access": "public",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsup src/index.ts"
