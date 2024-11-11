@@ -1,8 +1,7 @@
 {
   "name": "@probablydanny/little-ioc",
   "description": "A small inversion-of-control library",
-  "version": "1.0.1",
-  "access": "public",
+  "version": "1.0.2",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsup src/index.ts"
@@ -17,5 +16,9 @@
     "prettier": "^3.3.3",
     "tsup": "^8.3.5",
     "typescript": "^5.6.3"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
