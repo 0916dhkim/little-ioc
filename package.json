@@ -1,0 +1,20 @@
+{
+  "name": "@probablydanny/little-ioc",
+  "description": "A small inversion-of-control library",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsup src/index.ts"
+  },
+  "keywords": [
+    "ioc",
+    "di"
+  ],
+  "author": "Danny Kim",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "tsup": "^8.3.5",
+    "typescript": "^5.6.3"
+  }
+}
