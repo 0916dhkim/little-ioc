@@ -1,7 +1,7 @@
 {
   "name": "@probablydanny/little-ioc",
   "description": "A small inversion-of-control library",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsup src/index.ts"
